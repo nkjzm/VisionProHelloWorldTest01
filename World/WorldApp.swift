@@ -23,10 +23,17 @@ struct WorldApp: App {
 
         WindowGroup("Hello World", id: "modules") {
 
-            Text("Hello")
-            Text("こんにちは")
+            HStack{
 
-            AvatarViw()
+                VStack{
+
+                    Text("Hello")
+                    Text("こんにちは")
+
+                }
+                AvatarViw()
+            }
+
 
         }
 

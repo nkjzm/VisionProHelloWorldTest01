@@ -12,13 +12,29 @@ import WorldAssets
 /// The top level navigation stack for the app.
 struct AvatarViw: View {
 
-    var body: some View {
-        Text("ここから")
-//         Model3D(named: item.name, bundle: worldAssetsBundle) { model in
+    var orientation: SIMD3<Double> = SIMD3<Double>(x: 0.0, y: .pi, z: 0.0)
+    private let modelDepth: Double = 100
 
-        Model3D(named: "Lyrica", bundle: worldAssetsBundle)
+    var body: some View {
+        VStack{
+            Text("リリカちゃん")
+            Model3D(named: "Lyrica", bundle: worldAssetsBundle) { model in
+                model.resizable()
+                    .scaledToFit()
+                    .rotation3DEffect(
+                        Rotation3D(
+                            eulerAngles: .init(angles: orientation, order: .xyz)
+                        )
+                    )
+                    .frame(depth: modelDepth)
+                    .offset(z: -modelDepth / 2 )
+                    .accessibilitySortPriority(1)
+            } placeholder: {
+                ProgressView()
+                    .offset(z: -modelDepth * 0.75)
+            }
             .padding(.bottom, 50)
-        Text("ここまで")
+        }
     }
 }
 
