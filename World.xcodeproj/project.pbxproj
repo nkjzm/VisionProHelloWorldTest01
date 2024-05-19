@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		242CD9442BF9F60600760B20 /* AvatarViw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CD9432BF9F60600760B20 /* AvatarViw.swift */; };
+		242CD9462BFA01BF00760B20 /* AvatarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CD9452BFA01BF00760B20 /* AvatarView2.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		242CD9432BF9F60600760B20 /* AvatarViw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViw.swift; sourceTree = "<group>"; };
+		242CD9452BFA01BF00760B20 /* AvatarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView2.swift; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				C22D1AF128EB403400CE0F8F /* WorldApp.swift */,
 				242CD9432BF9F60600760B20 /* AvatarViw.swift */,
+				242CD9452BFA01BF00760B20 /* AvatarView2.swift */,
 				C2DEDA222996F5ED00F5265B /* Modules */,
 				C25774D929E23F7400A75567 /* Globe */,
 				C25774DF29E2404500A75567 /* Orbit */,
@@ -402,6 +405,7 @@
 				C25774DE29E2401F00A75567 /* SolarSystemModule.swift in Sources */,
 				C25E9E7828EBB5430033B333 /* Earth.swift in Sources */,
 				C25774D829E2361000A75567 /* TypeTextModifier.swift in Sources */,
+				242CD9462BFA01BF00760B20 /* AvatarView2.swift in Sources */,
 				C2F31EFE29CC02D7009742AD /* Module.swift in Sources */,
 				C2F2CA342A391D4200E1C2A2 /* EarthSettings.swift in Sources */,
 				C2F31EFC29CC01BC009742AD /* TableOfContents.swift in Sources */,
@@ -566,13 +570,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.World${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nkjzm.vrmsample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = xros;
@@ -600,13 +605,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.World${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.nkjzm.vrmsample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = xros;

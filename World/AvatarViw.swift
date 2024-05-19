@@ -34,6 +34,7 @@ struct AvatarViw: View {
                     .offset(z: -modelDepth * 0.75)
             }
             .padding(.bottom, 50)
+            
         }
     }
 }

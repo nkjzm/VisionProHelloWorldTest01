@@ -11,7 +11,7 @@ import WorldAssets
 /// The main entry point of the Hello World experience.
 @main
 struct WorldApp: App {
-    
+
     // The view model.
     @State private var model = ViewModel()
 
@@ -21,22 +21,11 @@ struct WorldApp: App {
 
     var body: some Scene {
 
-        WindowGroup("Hello World", id: "modules") {
-
-            HStack{
-
-                VStack{
-
-                    Text("Hello")
-                    Text("こんにちは")
-
-                }
-                AvatarViw()
-            }
-
-
+        WindowGroup {
+            AvatarViw2()
         }
-
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.6, height: 0.6, depth: 0.4, in: .meters)
     }
 
     init() {
@@ -50,6 +39,3 @@ struct WorldApp: App {
     }
 }
 
-#Preview {
-    WorldApp() as! any View
-}
