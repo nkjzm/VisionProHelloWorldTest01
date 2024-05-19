@@ -172,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				C22D1AF128EB403400CE0F8F /* WorldApp.swift */,
+				242CD9432BF9F60600760B20 /* AvatarViw.swift */,
 				C2DEDA222996F5ED00F5265B /* Modules */,
 				C25774D929E23F7400A75567 /* Globe */,
 				C25774DF29E2404500A75567 /* Orbit */,
@@ -222,7 +223,6 @@
 		C25774DF29E2404500A75567 /* Orbit */ = {
 			isa = PBXGroup;
 			children = (
-				242CD9432BF9F60600760B20 /* AvatarViw.swift */,
 				C2556369291D8A0300398FCE /* Orbit.swift */,
 				C25774E029E240EC00A75567 /* OrbitModule.swift */,
 				C2A8235F2A859109006F6AFF /* OrbitToggle.swift */,
