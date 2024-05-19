@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242CD9442BF9F60600760B20 /* AvatarViw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CD9432BF9F60600760B20 /* AvatarViw.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		242CD9432BF9F60600760B20 /* AvatarViw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViw.swift; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
@@ -150,11 +152,11 @@
 			isa = PBXGroup;
 			children = (
 				C25A1C9C28EB495E00B0E173 /* README.md */,
-				C22D1AF028EB403400CE0F8F /* World */,
-				C2A837602A25286A00AD11D6 /* Packages */,
-				C22D1AEF28EB403400CE0F8F /* Products */,
 				E043781D4066DB10F3A83C6E /* Configuration */,
 				5054F77D55BBBCDEC076AB73 /* LICENSE */,
+				C2A837602A25286A00AD11D6 /* Packages */,
+				C22D1AEF28EB403400CE0F8F /* Products */,
+				C22D1AF028EB403400CE0F8F /* World */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +222,7 @@
 		C25774DF29E2404500A75567 /* Orbit */ = {
 			isa = PBXGroup;
 			children = (
+				242CD9432BF9F60600760B20 /* AvatarViw.swift */,
 				C2556369291D8A0300398FCE /* Orbit.swift */,
 				C25774E029E240EC00A75567 /* OrbitModule.swift */,
 				C2A8235F2A859109006F6AFF /* OrbitToggle.swift */,
@@ -276,10 +279,10 @@
 		C2DEDA222996F5ED00F5265B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				C2F31EF729CA8F4E009742AD /* Modules.swift */,
-				C2F31EFB29CC01BC009742AD /* TableOfContents.swift */,
 				C2CD36422A3A7682003811D3 /* ModuleCard.swift */,
 				C2F31EFF29CC0858009742AD /* ModuleDetail.swift */,
+				C2F31EF729CA8F4E009742AD /* Modules.swift */,
+				C2F31EFB29CC01BC009742AD /* TableOfContents.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				C25774D629E219FE00A75567 /* DragRotationModifier.swift in Sources */,
 				C2B0AEED2994B35600021509 /* RotationSystem.swift in Sources */,
 				C2B0AEEF2994B39300021509 /* TraceSystem.swift in Sources */,
+				242CD9442BF9F60600760B20 /* AvatarViw.swift in Sources */,
 				C2E652D8291B09AC007934BC /* SolarSystem.swift in Sources */,
 				C258918F2975EB7E0071BD5F /* SliderGridRow.swift in Sources */,
 				C2CD36432A3A7682003811D3 /* ModuleCard.swift in Sources */,
